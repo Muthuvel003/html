@@ -1,5 +1,11 @@
-p{
+p,h1{
 	color: red;
 	text-decoration:underline;
 	font-family: sans-serif;
+}
+div{
+	width:500px;
+	background:blue;
+	text-align:center;
+	margin:auto;
 }

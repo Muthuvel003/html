@@ -1,5 +1,8 @@
-p,h1{
+p{
 	color: red;
 	text-decoration:underline;
 	font-family: sans-serif;
+}
+h1{
+	margin-left: 50px; 
 }

@@ -1,0 +1,43 @@
+body{
+	width:600px;
+	margin:auto;
+	font-size: 14px;
+	margin-top:20px;
+}
+h2{
+	font-size:39px;
+	letter-spacing: -1px;
+	line-height: 43px;
+}
+img{
+	float:left;
+	margin-right: 20px;
+	width:200px;
+}
+.meta li{
+	display:inline;
+	list-style-type: none;
+}
+.meta a{
+	color:#276056;
+	font-style: italic;
+}
+.main{
+	float:right;
+	width:370px;
+}
+.main a:after{
+	content:'\\';
+}
+a:hover{
+	color:black;
+}
+#con a{
+	float:right;
+}
+#con a:after{
+	content:')';
+}
+#con a:before{
+	content:'(';
+}

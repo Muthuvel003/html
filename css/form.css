@@ -1,0 +1,16 @@
+ul{
+	font-family:sans-serif;
+}
+li{
+	list-style-type: none;
+	padding-bottom:10px;
+}
+label{
+	display:block;
+	cursor:pointer;
+	padding-bottom:10px;
+}
+textarea{
+	width:400px;
+	height:200px;
+}

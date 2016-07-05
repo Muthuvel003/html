@@ -1,0 +1,19 @@
+body{
+ margin: 0px;
+}
+.div1{
+	width:100px;
+	height:100px;
+	background:gray;
+	position:relative;
+	top:50px;
+	left:50px;
+}
+.div2 {
+	width:100px;
+	height:100px;
+	background:red;
+	position: relative;
+	top:50px;
+	left:50px;
+}

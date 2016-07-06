@@ -3,11 +3,13 @@ body{
 	margin:auto;
 	font-size: 14px;
 	margin-top:20px;
+	font-family: sans-serif;
 }
-h2{
+.main h2{
 	font-size:39px;
 	letter-spacing: -1px;
 	line-height: 43px;
+	padding-top: 0;
 }
 img{
 	float:left;
@@ -26,11 +28,28 @@ img{
 	float:right;
 	width:370px;
 }
-.main a:after{
+.meta{
+	padding-left:0;
+}
+.meta li:after{
 	content:'\\';
+	padding:o 2px;
+	color:#999;
+}
+.sid{
+	background:#f3f3f3;
+	color:#999;
+	padding-top:0;
+}
+.sid a{
+	color:#999;
 }
 a:hover{
 	color:black;
+}
+#con{
+	color:#999;
+	background: #999;
 }
 #con a{
 	float:right;

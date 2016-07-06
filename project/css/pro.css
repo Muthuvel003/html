@@ -1,0 +1,50 @@
+.top h1{
+	font-family: sans-serif;
+	font-size: 48px;
+	padding-left: 100px;
+	width: 100%;
+	height:200px;
+	background: gray;
+}
+.hero{
+	background: url(../image/1.jpg) no-repeat;
+	width:100%;
+	height:100%;
+	background-attachment: fixed;
+	position:relative;
+	top:0;
+}
+
+header{
+	background: gray;
+}
+.top a{
+	text-decoration: none;
+}
+.top li{
+	display:inline;
+}
+.top ul{
+	list-style-type: none;
+}
+.home{
+	float:right;
+	clear: both;
+}
+.container_12{
+	background: gray;
+}
+.offer{
+	background: url(../image/offer.jpg);
+	width:960px;
+	height:400px;
+	margin:0;
+}
+.bdy{
+	background: url(../image/1.jpg) no-repeat;
+}
+.head{
+	margin-bottom: 0px;
+	background:gray;
+	font-size: 24px;
+}

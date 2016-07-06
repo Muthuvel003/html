@@ -1,0 +1,21 @@
+.container_12{
+	background: gray;
+}
+header{
+	background: yellow;
+}
+.primary,.sub{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: red;
+}
+nav li{
+	display:inline;
+	margin-left: 0;
+}
+nav ul{
+	padding-top: 12px;
+}
+section div{
+	padding:10px;
+}

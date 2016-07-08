@@ -1,0 +1,223 @@
+body{
+	background: silver;
+	opacity:0.8px;
+}
+.head{
+	font-family: 'Pacifico', cursive;
+	padding-top: 5px;
+	padding-left: 100px;
+	width: 50%;
+	height:50px;
+	float:left;
+	background: gray;
+}
+.head h1{
+	font-size: 40px;
+	background: gray;
+}
+.home{
+	padding-top: 20px;
+	width:35%;
+	float:right;
+}
+.hed{
+	background:gray;
+	overflow: hidden;
+	position:fixed;
+	width:100%;
+}
+.home a{
+	text-decoration: none;
+	color:black;
+}
+.home a:hover{
+	color: red;
+}
+.home li{
+	display:inline;
+}
+.home ul{
+	list-style-type: none;
+	background-color: gray;
+}
+.hero{
+	background: url(../image/online4.png) no-repeat;
+	width:100%;
+	height:100%;
+	background-attachment: fixed;
+	position:relative;
+	top:0;
+	z-index: -999;
+}
+li a.active{
+	color:blue;
+}
+<---container--->
+.container_12{
+	background-color: silver;
+}
+.men,.women{
+	width:470px;
+	height:70px;
+	font-size: 36px;
+	background-color: gray;
+	padding-top: 20px;
+	text-align: center;
+	border: 2px solid;
+	border-color: black;
+}
+.men{
+	color: blue;
+}
+.women{
+	color:black;
+}
+.container_12 a{
+	text-decoration: none;
+}
+.img1{
+	background: url(../image/21.jpg);
+	width:950px;
+	height:590px;
+	margin:0;
+}
+.img2{
+	background: url(../image/22.jpg);
+	width:300px;
+	height:400px;
+	margin:0;
+}
+.img3{
+	background: url(../image/23.jpg);
+	width:300px;
+	height:400px;
+	margin:0;
+}
+.img4{
+	background: url(../image/24.jpg);
+	width:310px;
+	height:400px;
+	margin:0;
+}
+.img5{
+	background: url(../image/25.jpg);
+	width:950px;
+	height:640px;
+	margin:0;
+}
+.img6{
+	background: url(../image/26.jpg);
+	width:300px;
+	height:400px;
+	margin:0;
+}
+.img7{
+	background: url(../image/27.jpg);
+	width:300px;
+	height:400px;
+	margin:0;
+}
+.img8{
+	background: url(../image/28.jpg);
+	width:310px;
+	height:400px;
+	margin:0;
+}
+.img9{
+	background: url(../image/29.jpg);
+	width:620px;
+	height:590px;
+	margin:0;
+}
+.img10{
+	background: url(../image/30.jpg);
+	width:310px;
+	height:590px;
+	margin:0;
+}
+.img11{
+	background: url(../image/31.jpg);
+	width:300px;
+	height:450px;
+	margin:0;
+}
+.img12{
+	background: url(../image/32.jpg);
+	width:300px;
+	height:450px;
+	margin:0;
+}
+.img13{
+	background: url(../image/33.jpg);
+	width:310px;
+	height:450px;
+	margin:0;
+}
+
+.foot{
+	width: 100%;
+	height:300px;
+	background:gray;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.foot a{
+	text-decoration: none;
+	color:black;
+}
+.foot a:hover{
+	color:blue;
+}
+.gsi{
+	background: url(../image/gs1.png);
+	width:100px;
+	height:34px;
+	margin:0;
+}
+.asi{
+	background: url(../image/as2.png);
+	width:100px;
+	height:28px;
+	margin:0;
+}
+.wsi{
+	background: url(../image/ws1.png);
+	width:100px;
+	height:27px;
+	margin:0;
+}
+.facei{
+	background: url(../image/face1.png);
+	width:30px;
+	height:30px;
+	margin:0;
+}
+.twiti{
+	background: url(../image/twit1.jpg);
+	width:30px;
+	height:30px;
+	margin:0;
+}
+.googlei{
+	background: url(../image/gplus1.png);
+	width:30px;
+	height:30px;
+	margin:0;
+}
+.youi{
+	background: url(../image/yt1.png);
+	width:30px;
+	height:30px;
+	margin:0;
+}
+.sec1,.sec2,.sec3,.sec4{
+	width:23%;
+	padding-top: 20px;
+	padding-left: 20px;
+	float:left;
+}
+.emp{
+	color:silver;
+}
+.appimage,.info1,.info2,.info3{
+	padding-top: 20px;

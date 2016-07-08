@@ -1,38 +1,80 @@
-.top h1{
-	font-family: sans-serif;
-	font-size: 48px;
+body{
+	background: silver;
+	opacity:0.8px;
+}
+.head{
+	font-family: 'Pacifico', cursive;
+	padding-top: 5px;
 	padding-left: 100px;
-	width: 100%;
-	height:200px;
+	width: 50%;
+	height:50px;
+	float:left;
 	background: gray;
 }
+.head h1{
+	font-size: 40px;
+	background: gray;
+}
+.home{
+	padding-top: 20px;
+	width:35%;
+	float:right;
+}
+.hed{
+	background:gray;
+	overflow: hidden;
+	position: fixed;
+	width:100%;
+}
+.home a{
+	text-decoration: none;
+	color:black;
+}
+.home a:hover{
+	color: red;
+}
+.home li{
+	display:inline;
+}
+.home ul{
+	list-style-type: none;
+	background-color: gray;
+}
 .hero{
-	background: url(../image/1.jpg) no-repeat;
+	background: url(../image/online2.jpg) no-repeat;
 	width:100%;
 	height:100%;
 	background-attachment: fixed;
 	position:relative;
 	top:0;
+	z-index: -999;
+}
+li a.active{
+	color:blue;
+}
+.pos{
+	position:relative;
+}
+.hov{
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-header{
-	background: gray;
+.hov a {
+    text-decoration: none;
 }
-.top a{
-	text-decoration: none;
+
+.hov a:hover {
+	background-color: #f1f1f1
 }
-.top li{
-	display:inline;
-}
-.top ul{
-	list-style-type: none;
-}
-.home{
-	float:right;
-	clear: both;
-}
+
+<---Container--->
+
 .container_12{
-	background: gray;
+	background:d8d8d8;
 }
 .offer{
 	background: url(../image/offer.jpg);
@@ -40,11 +82,134 @@ header{
 	height:400px;
 	margin:0;
 }
-.bdy{
-	background: url(../image/1.jpg) no-repeat;
-}
 .head{
 	margin-bottom: 0px;
-	background:gray;
 	font-size: 24px;
+}
+.shop,.daily,.sport,.mobiles{
+	font-family: 'Lobster', cursive;
+	padding-top: 20px;
+}
+.img1{
+	background: url(../image/1.jpg);
+	width:470px;
+	height:400px;
+	margin:0;
+}
+.img2{
+	background: url(../image/6.jpg);
+	width:480px;
+	height:400px;
+	margin:0;
+}
+.emp{
+	font-family: 'Lobster', cursive;
+	padding-top: 20px;
+	color:white;
+}
+.img3{
+	background: url(../image/3.jpg);
+	width:470px;
+	height:400px;
+	margin:0;
+}
+.img4{
+	background: url(../image/4.jpg);
+	width:480px;
+	height:400px;
+	margin:0;
+}
+.img5{
+	background: url(../image/17.jpg) no-repeat;
+	width:960px;
+	height:300px;
+	margin:auto;
+}
+.img6{
+	background: url(../image/18.jpg) no-repeat;
+	width:960px;
+	height:300px;
+	margin:0;
+}
+.foot{
+	width: 100%;
+	height:300px;
+	background:gray;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.foot a{
+	text-decoration: none;
+	color:black;
+}
+.foot a:hover{
+	color:blue;
+}
+.gsi{
+	background: url(../image/gs1.png);
+	width:100px;
+	height:34px;
+	margin:0;
+}
+.asi{
+	background: url(../image/as2.png);
+	width:100px;
+	height:28px;
+	margin:0;
+}
+.wsi{
+	background: url(../image/ws1.png);
+	width:100px;
+	height:27px;
+	margin:0;
+}
+.facei{
+	background: url(../image/face1.png);
+	width:30px;
+	height:30px;
+	margin:0;
+	float:left;
+}
+.twiti{
+	background: url(../image/twit1.jpg);
+	width:30px;
+	height:30px;
+	margin:0;
+	float:left;
+}
+.googlei{
+	background: url(../image/gplus1.png);
+	width:30px;
+	height:30px;
+	margin:0;
+	float:left;
+}
+.youi{
+	background: url(../image/yt1.png);
+	width:30px;
+	height:30px;
+	margin:0;
+	float:left;
+}
+.sec1,.sec2,.sec3,.sec4{
+	width:23%;
+	padding-top: 20px;
+	padding-left: 20px;
+	float:left;
+}
+.appimage,.info1,.info2,.info3{
+	padding-top: 20px;
+	overflow: hidden;
+}
+.info3 a{
+	display:inline;
+}
+.emp{
+	color: silver;
+}
+.paymentlogo{
+	display:inline-block;
+	background: url('http://img5a.flixcart.com/www/prod/images/social-sprite-new-a01ff2d2.png');
+	width:600px;
+	height:30px;
 }

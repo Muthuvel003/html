@@ -41,6 +41,12 @@ body{
 	list-style-type: none;
 	background-color: white;
 }
+.txt{
+	height:27px;
+}
+.img{
+	padding-bottom: 2px;
+}
 .b1{
 	background-color: white;
     color: blue;
@@ -242,6 +248,15 @@ li a.active{
 .info3 li{
 	display:inline;
 }
+.gs,.as,.ws{
+	margin-bottom: 10px;
+}
+.as{
+	margin-left: 1px;
+}
+.gs{
+	margin-left: 2px;
+}
 .gsi{
 	background: url(../image/gs1.png);
 	width:100px;
@@ -295,7 +310,7 @@ li a.active{
 	float:left;
 }
 .emp{
-	color:silver;
+	color:white;
 }
 .appimage,.info1,.info2,.info3{
 	padding-top: 20px;

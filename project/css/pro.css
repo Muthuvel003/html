@@ -68,9 +68,10 @@ body{
 .submenu {
     display: none;
     position: absolute;
-    background-color: silver;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
 }
 
 .submenu a {
@@ -80,17 +81,24 @@ body{
     display: block;
 }
 
-.submenu a:hover {background-color: gray}
+.submenu a:hover {
+	background-color: white;
+}
 
 .pos:hover .submenu {
     display: block;
 }
 
 .pos:hover .but {
-    background-color: silver;
+    background-color: white;
+    color: blue;
 }
-
-
+.txt{
+	height:27px;
+}
+.img{
+	padding-bottom: 2px;
+}
 .search{
 	padding-top: 20px;
 	width:450px;
@@ -113,7 +121,7 @@ body{
 	background-attachment: fixed;
 	position:relative;
 	top:0;
-	z-index: -999;
+	z-index: -9999;
 }
 .wel{
 	background-color: black;
@@ -140,6 +148,14 @@ li a.active{
 
 .container_12{
 	background:d8d8d8;
+}
+.daily h1,.sport h1,.mobiles h1{
+	padding-top: 20px;
+	margin-top: 400px;
+}
+.mobile h1{
+	padding-top: 20px;
+	margin-top: 370px;
 }
 .offer{
 	background: url(../image/offer.jpg);
@@ -255,6 +271,15 @@ footer{
 	height:34px;
 	margin:0;
 }
+.gs,.as,.ws{
+	margin-bottom: 10px;
+}
+.as{
+	margin-left: 1px;
+}
+.gs{
+	margin-left: 2px;
+}
 .asi{
 	background: url(../image/as2.png);
 	width:100px;
@@ -266,6 +291,7 @@ footer{
 	width:100px;
 	height:27px;
 	margin:0;
+
 }
 .facei{
 	background: url(../image/face1.png);
@@ -313,11 +339,5 @@ footer{
 	display:inline;
 }
 .emp{
-	color: silver;
-}
-.paymentlogo{
-	display:inline-block;
-	background: url('http://img5a.flixcart.com/www/prod/images/social-sprite-new-a01ff2d2.png');
-	width:600px;
-	height:30px;
+	color: white;
 }

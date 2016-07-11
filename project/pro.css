@@ -6,7 +6,7 @@ body{
 	font-family: 'Pacifico', cursive;
 	padding-top: 5px;
 	padding-left: 100px;
-	width: 50%;
+	width: 30%;
 	height:50px;
 	float:left;
 	background: gray;
@@ -39,6 +39,9 @@ body{
 .home ul{
 	list-style-type: none;
 	background-color: gray;
+}
+.search{
+	float:left;
 }
 .hero{
 	background: url(../image/online2.jpg) no-repeat;

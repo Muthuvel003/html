@@ -155,7 +155,7 @@ li a.active{
 }
 .mobile h1{
 	padding-top: 20px;
-	margin-top: 370px;
+	margin-top: 340px;
 }
 .offer{
 	background: url(../image/offer.jpg);
@@ -167,7 +167,7 @@ li a.active{
 	margin-bottom: 0px;
 	font-size: 24px;
 }
-.shop,.daily,.sport,.mobiles{
+.shop,.daily,.sport,.mobiles,.mobile{
 	font-family: 'Lobster', cursive;
 	padding-top: 20px;
 }
@@ -216,13 +216,13 @@ li a.active{
 	background: url(../image/62.jpg) no-repeat;
 	width:300px;
 	height:420px;
-	margin-left:30px;
+	margin-left:0px;
 }
 .img9{
 	background: url(../image/63.jpg) no-repeat;
 	width:300px;
 	height:420px;
-	margin-left:45px;
+	margin-left:20px;
 }
 .img10{
 	background: url(../image/64.jpg) no-repeat;
@@ -234,19 +234,25 @@ li a.active{
 	background: url(../image/65.jpg) no-repeat;
 	width:300px;
 	height:420px;
-	margin-left:30px;
+	margin-left:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .img13{
 	background: url(../image/66.jpg) no-repeat;
 	width:300px;
 	height:420px;
-	margin-left:45px;
+	margin-left:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .img11{
 	background: url(../image/67.jpg) no-repeat;
 	width:300px;
 	height:420px;
 	margin:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 footer{
 	width:98.5%;
@@ -255,7 +261,7 @@ footer{
 	width: 100%;
 	height:270px;
 	background:white;
-	padding-left: 20px;
+	padding-left: 60px;
 	padding-top: 20px;
 }
 .foot a{
